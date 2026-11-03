@@ -12,6 +12,7 @@ struct Inspection: Identifiable, Hashable {
     var claimID: String
     var address: String
     var lineItems: [LineItem]
+    var photoCount: Int = 0
 
     var totalCents: Int { lineItems.reduce(0) { $0 + $1.amountCents } }
 }
@@ -29,6 +30,11 @@ final class InspectionStore {
             LineItem(id: "dryout", description: "Water extraction", amountCents: 120_000),
         ]),
     ]
+
+    func addPhoto(to inspectionID: String) {
+        guard let index = inspections.firstIndex(where: { $0.id == inspectionID }) else { return }
+        inspections[index].photoCount += 1
+    }
 
     func removeLineItem(_ itemID: String, from inspectionID: String) {
         guard let index = inspections.firstIndex(where: { $0.id == inspectionID }) else { return }
