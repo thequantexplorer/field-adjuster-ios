@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DFBE34C4632A7872EC43AAC /* FieldAdjusterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D80CCB5B31D07C5277488E /* FieldAdjusterApp.swift */; };
+		286D8767EE0F9C6211180B58 /* InspectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E000A4A650D7E7E07EB6ACFB /* InspectionListView.swift */; };
+		56FBA85164F339FDD8185C77 /* EstimateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3205BD291B803DB38E893 /* EstimateCalculator.swift */; };
+		88EB235AFBA4B6546083E951 /* InspectionFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECD3717FA2ACA40A60527F /* InspectionFlowUITests.swift */; };
+		BDD470F493C3EE0EAF43FA4C /* EstimateCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE116FCB39A346DADB21C731 /* EstimateCalculatorTests.swift */; };
+		D66DD5B42585A52345278EFE /* EstimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC617D65385CB4A48A8D1D8 /* EstimateView.swift */; };
+		D80E507758EE42EEEEEE0A8E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227DDEBADDEE05736BF717EC /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BC1A7AECAE4A2BEB619E170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04034685BF583DD3C50053A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E50BB0EF954E713D52DA9348;
+			remoteInfo = FieldAdjuster;
+		};
+		E1BC88688E0336CC3A2107C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04034685BF583DD3C50053A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E50BB0EF954E713D52DA9348;
+			remoteInfo = FieldAdjuster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13ECD3717FA2ACA40A60527F /* InspectionFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionFlowUITests.swift; sourceTree = "<group>"; };
+		1EC617D65385CB4A48A8D1D8 /* EstimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateView.swift; sourceTree = "<group>"; };
+		227DDEBADDEE05736BF717EC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		64D80CCB5B31D07C5277488E /* FieldAdjusterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAdjusterApp.swift; sourceTree = "<group>"; };
+		95B075FD9C3A644BD0D311C4 /* FieldAdjuster.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FieldAdjuster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86C7A9DE36825B8FCA5848B /* FieldAdjusterTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FieldAdjusterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9B174C233DECD550E00F78 /* FieldAdjusterUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FieldAdjusterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE116FCB39A346DADB21C731 /* EstimateCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateCalculatorTests.swift; sourceTree = "<group>"; };
+		E000A4A650D7E7E07EB6ACFB /* InspectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionListView.swift; sourceTree = "<group>"; };
+		F1A3205BD291B803DB38E893 /* EstimateCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateCalculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1CA446D06CA052261578DDB0 /* FieldAdjusterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE116FCB39A346DADB21C731 /* EstimateCalculatorTests.swift */,
+			);
+			path = FieldAdjusterTests;
+			sourceTree = "<group>";
+		};
+		343D6AC495D7901BB55AA1AB /* FieldAdjuster */ = {
+			isa = PBXGroup;
+			children = (
+				F1A3205BD291B803DB38E893 /* EstimateCalculator.swift */,
+				1EC617D65385CB4A48A8D1D8 /* EstimateView.swift */,
+				64D80CCB5B31D07C5277488E /* FieldAdjusterApp.swift */,
+				E000A4A650D7E7E07EB6ACFB /* InspectionListView.swift */,
+				227DDEBADDEE05736BF717EC /* Models.swift */,
+			);
+			path = FieldAdjuster;
+			sourceTree = "<group>";
+		};
+		3EC7C26978743C0A090DBFC4 = {
+			isa = PBXGroup;
+			children = (
+				343D6AC495D7901BB55AA1AB /* FieldAdjuster */,
+				1CA446D06CA052261578DDB0 /* FieldAdjusterTests */,
+				D566A34A5F15FF4AFBA6C08C /* FieldAdjusterUITests */,
+				57D9D303D5A38E4077704CE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D9D303D5A38E4077704CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B075FD9C3A644BD0D311C4 /* FieldAdjuster.app */,
+				C86C7A9DE36825B8FCA5848B /* FieldAdjusterTests.xctest */,
+				CD9B174C233DECD550E00F78 /* FieldAdjusterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D566A34A5F15FF4AFBA6C08C /* FieldAdjusterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13ECD3717FA2ACA40A60527F /* InspectionFlowUITests.swift */,
+			);
+			path = FieldAdjusterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		766B89C5EC55D22613D961FF /* FieldAdjusterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3733DBDF1FFD50A8A9A391 /* Build configuration list for PBXNativeTarget "FieldAdjusterUITests" */;
+			buildPhases = (
+				D353CE3DDAE1A01D28563EAA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C43BF567F5F15F1C32B3268 /* PBXTargetDependency */,
+			);
+			name = FieldAdjusterUITests;
+			packageProductDependencies = (
+			);
+			productName = FieldAdjusterUITests;
+			productReference = CD9B174C233DECD550E00F78 /* FieldAdjusterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BA2005CD038404DAA4CD76BB /* FieldAdjusterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFCD8492511E6A5B3499A26 /* Build configuration list for PBXNativeTarget "FieldAdjusterTests" */;
+			buildPhases = (
+				4F857AAF9F3D4AD2E7A70069 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307AAAF7CB75A2F998B722D2 /* PBXTargetDependency */,
+			);
+			name = FieldAdjusterTests;
+			packageProductDependencies = (
+			);
+			productName = FieldAdjusterTests;
+			productReference = C86C7A9DE36825B8FCA5848B /* FieldAdjusterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E50BB0EF954E713D52DA9348 /* FieldAdjuster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D16F9C5B194F54D0297181E /* Build configuration list for PBXNativeTarget "FieldAdjuster" */;
+			buildPhases = (
+				951CA91B6C0D191526C4EC96 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FieldAdjuster;
+			packageProductDependencies = (
+			);
+			productName = FieldAdjuster;
+			productReference = 95B075FD9C3A644BD0D311C4 /* FieldAdjuster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04034685BF583DD3C50053A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					766B89C5EC55D22613D961FF = {
+						DevelopmentTeam = "";
+						TestTargetID = E50BB0EF954E713D52DA9348;
+					};
+					BA2005CD038404DAA4CD76BB = {
+						DevelopmentTeam = "";
+					};
+					E50BB0EF954E713D52DA9348 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 3CF0912EE33EDD3B74A158BF /* Build configuration list for PBXProject "FieldAdjuster" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3EC7C26978743C0A090DBFC4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 57D9D303D5A38E4077704CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E50BB0EF954E713D52DA9348 /* FieldAdjuster */,
+				BA2005CD038404DAA4CD76BB /* FieldAdjusterTests */,
+				766B89C5EC55D22613D961FF /* FieldAdjusterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F857AAF9F3D4AD2E7A70069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD470F493C3EE0EAF43FA4C /* EstimateCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951CA91B6C0D191526C4EC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FBA85164F339FDD8185C77 /* EstimateCalculator.swift in Sources */,
+				D66DD5B42585A52345278EFE /* EstimateView.swift in Sources */,
+				0DFBE34C4632A7872EC43AAC /* FieldAdjusterApp.swift in Sources */,
+				286D8767EE0F9C6211180B58 /* InspectionListView.swift in Sources */,
+				D80E507758EE42EEEEEE0A8E /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D353CE3DDAE1A01D28563EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EB235AFBA4B6546083E951 /* InspectionFlowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C43BF567F5F15F1C32B3268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E50BB0EF954E713D52DA9348 /* FieldAdjuster */;
+			targetProxy = 5BC1A7AECAE4A2BEB619E170 /* PBXContainerItemProxy */;
+		};
+		307AAAF7CB75A2F998B722D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E50BB0EF954E713D52DA9348 /* FieldAdjuster */;
+			targetProxy = E1BC88688E0336CC3A2107C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09601B6A8EAE0E87D6C5C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.northwind.FieldAdjusterTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FieldAdjuster.app/FieldAdjuster";
+			};
+			name = Debug;
+		};
+		0EB70FB6AABF66E8A67D0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.northwind.FieldAdjusterUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FieldAdjuster;
+			};
+			name = Release;
+		};
+		189960BB26CC1DA0E324C34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Northwind Field";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.northwind.fieldadjuster;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50605D8B4E5547A2806505C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1207;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 4.8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		5B223B6FFD21F9ECA838A664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.northwind.FieldAdjusterTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FieldAdjuster.app/FieldAdjuster";
+			};
+			name = Release;
+		};
+		6DEECE5F7ED9B09AB1097AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Northwind Field";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.northwind.fieldadjuster;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DDF828A234B07FC55A0262B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.northwind.FieldAdjusterUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FieldAdjuster;
+			};
+			name = Debug;
+		};
+		B3F8667FDE0319280933F54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1207;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 4.8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF0912EE33EDD3B74A158BF /* Build configuration list for PBXProject "FieldAdjuster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F8667FDE0319280933F54D /* Debug */,
+				50605D8B4E5547A2806505C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D16F9C5B194F54D0297181E /* Build configuration list for PBXNativeTarget "FieldAdjuster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189960BB26CC1DA0E324C34E /* Debug */,
+				6DEECE5F7ED9B09AB1097AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EFFCD8492511E6A5B3499A26 /* Build configuration list for PBXNativeTarget "FieldAdjusterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09601B6A8EAE0E87D6C5C3C6 /* Debug */,
+				5B223B6FFD21F9ECA838A664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC3733DBDF1FFD50A8A9A391 /* Build configuration list for PBXNativeTarget "FieldAdjusterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDF828A234B07FC55A0262B /* Debug */,
+				0EB70FB6AABF66E8A67D0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04034685BF583DD3C50053A5 /* Project object */;
+}

@@ -1,0 +1,42 @@
+name: FieldAdjuster
+options:
+  bundleIdPrefix: com.northwind
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "4.8.0"
+    CURRENT_PROJECT_VERSION: "1207"
+    GENERATE_INFOPLIST_FILE: YES
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGNING_ALLOWED: NO
+targets:
+  FieldAdjuster:
+    type: application
+    platform: iOS
+    sources: [FieldAdjuster]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.northwind.fieldadjuster
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Northwind Field
+  FieldAdjusterTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [FieldAdjusterTests]
+    dependencies:
+      - target: FieldAdjuster
+  FieldAdjusterUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [FieldAdjusterUITests]
+    dependencies:
+      - target: FieldAdjuster
+schemes:
+  FieldAdjuster:
+    build:
+      targets:
+        FieldAdjuster: all
+    test:
+      targets: [FieldAdjusterTests, FieldAdjusterUITests]
